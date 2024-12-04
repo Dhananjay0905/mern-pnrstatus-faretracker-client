@@ -1,0 +1,101 @@
+/* Fare.css */
+
+body{
+    background: rgba(0, 0, 0, 0.5)url(trainbg3.jpeg) no-repeat center center;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+}
+
+.Fare {
+    max-width: 600px;
+    margin: 10px auto;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+
+.note{
+    margin-top: 26px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input[type="text"] {
+    width: 95%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#pnrbtn{
+    margin-left: 77px;
+}
+
+#logoutbtn2{
+    margin-left: 77px;
+
+}
+
+.button-fetch {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button-fetch:hover {
+    background-color: #0056b3;
+}
+
+.Fare h1,
+.Fare h2 {
+    color: #333;
+}
+
+.fare-table {
+    width: 98%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.fare-table th,
+.fare-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.fare-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.fare-table td:first-child {
+    font-weight: bold;
+}
+
+.fare-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
