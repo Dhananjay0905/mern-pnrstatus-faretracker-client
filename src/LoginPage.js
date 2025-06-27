@@ -23,7 +23,7 @@ const LoginPage = () => {
     const handleLoginSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('http://localhost:8000/', loginData); 
+            const response = await axios.post('https://mern-pnrstatus-faretracker-server.onrender.com/', loginData); 
             const { message } = response.data;
 
             if (response.status === 200) {
