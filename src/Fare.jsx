@@ -10,7 +10,7 @@ function Fare() {
 
     const fetchFareDetails = async () => {
         try {
-            const response = await axios.get('http://localhost:8000/fare', {
+            const response = await axios.get('https://mern-pnrstatus-faretracker-server.onrender.com/fare', {
                 params: {
                     trainNo,
                     fromStationCode,
